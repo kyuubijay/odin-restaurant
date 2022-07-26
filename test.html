@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="runtime.bundle.js"></script>
+    <script defer src="index.bundle.js"></script>
+</head>
+<link rel="stylesheet" href="index.css">
+<title>Document</title>
+</head>
+
+<body>
+    <div class="container px-40">
+        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <a href="https://flowbite.com/" class="flex items-center">
+                    <img src="img/logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+                    <span
+                        class="self-center text-xl font-semibold whitespace-nowrap dark:text-white font-jellee text-red-600">Jollijeep</span>
+                </a>
+
+            </div>
+        </nav>
+        <div
+            class="flex justify-center text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
+            <ul class="flex flex-wrap -mb-px">
+                <li class="mr-2" role="presentation">
+                    <button
+                        class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-red-600 hover:border-red-300 dark:hover:text-red-300"
+                        id="home-tab" data-tabs-target="#home" type="button" role="tab" aria-controls="home"
+                        aria-selected="false">Home</button>
+                </li>
+                <li class="mr-2" role="presentation">
+                    <button
+                        class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-red-600 hover:border-red-300 dark:hover:text-red-300"
+                        id="menu-tab" data-tabs-target="#menu" type="button" role="tab" aria-controls="menu"
+                        aria-selected="true">Menu</button>
+                </li>
+                <li class="mr-2" role="presentation">
+                    <button
+                        class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-red-600 hover:border-red-300 dark:hover:text-red-300"
+                        id="contact-tab" data-tabs-target="#contact" type="button" role="tab" aria-controls="contact"
+                        aria-selected="true">Contact</button>
+                </li>
+
+            </ul>
+        </div>
+        <div id="myTabContent">
+            <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="home" role="tabpanel"
+                aria-labelledby="home-tab">
+                <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                        class="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>.
+                    Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                    classes to control the content visibility and styling.</p>
+            </div>
+            <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="menu" role="tabpanel"
+                aria-labelledby="menu-tab">
+                <div
+                    class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="img/fried-chicken.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h5>
+                        </a>
+                        
+                        <a href="#"
+                            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-red-600 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                            Read more
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="contact" role="tabpanel"
+                aria-labelledby="contact-tab">
+                <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                        class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>.
+                    Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                    classes to control the content visibility and styling.</p>
+            </div>
+        </div>
+        <div class="container hidden">
+
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <h1 class="font-jellee text-red-600 text-8xl">Pabida ang saya!</h1>
+                </div>
+                <div><img class="w-full aspect-square" src="img/fried-chicken.jpg" /></div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
